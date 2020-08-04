@@ -29,7 +29,7 @@ artifacts:
   files:
     - $CODEBUILD_SRC_DIR/*
   secondary-artifacts:
-    image-digest:
+    ImageDigest:
       base-directory: $CODEBUILD_SRC_DIR
       files:
         - image-digest.txt
